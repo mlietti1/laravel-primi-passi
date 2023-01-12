@@ -1,0 +1,31 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    padding: 1rem;
+    margin: 2rem;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    color: coral;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(198, 97, 61);
+    text-decoration: underline;
+}
